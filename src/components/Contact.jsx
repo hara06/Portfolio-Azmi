@@ -1,9 +1,9 @@
 // GANTI data di bawah ini dengan kontak aslimu.
 // Kosongkan nilai `value` (contoh: value: "") untuk menyembunyikan kontak yang tidak dipakai.
 export const CONTACT = {
-  email: "namakamu@email.com",
-  whatsapp: "6281234567890",
-  whatsappDisplay: "+62 812-3456-7890",
+  email: "azmitarigan999@email.com",
+  whatsapp: "6285189406982",
+  whatsappDisplay: "+62 851-8940-6982",
   cv: "/CV-Azmi-Tarigan.pdf",
 };
 
