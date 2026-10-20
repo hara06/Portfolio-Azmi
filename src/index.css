@@ -9,6 +9,11 @@
 
   --color-paper: #fafaf7;
 
+  /* Latar terang hangat untuk section selain hero */
+  --color-sand-100: #f2f0ea;
+  --color-sand-200: #e6e3da;
+
+
   --color-gold-300: #e6cf94;
   --color-gold-400: #d4b56a;
   --color-gold-500: #c9a24d;
