@@ -7,8 +7,8 @@ const LINKS = [
   { id: "kompetensi", label: "Kompetensi" },
   { id: "pengalaman", label: "Pengalaman" },
   { id: "organisasi", label: "Organisasi" },
-  { id: "karya-tulis", label: "Karya Tulis" },
   { id: "pendidikan", label: "Pendidikan" },
+  { id: "keahlian", label: "Keahlian" },
 ];
 
 export default function Navbar() {
@@ -78,7 +78,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop */}
-        <ul className="hidden items-center gap-8 lg:flex">
+        <ul className="hidden items-center gap-6 lg:flex xl:gap-8">
           {LINKS.map((l) => {
             const isActive = active === l.id;
             return (
