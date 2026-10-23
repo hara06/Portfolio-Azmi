@@ -19,7 +19,7 @@ const ITEMS = [
   {
     title: "Kontrak kerja dan perjanjian terkait",
     tags: ["PKWT", "PKWTT", "NDA", "Administrasi Pengupahan", "Administrasi Jaminan Sosial", "Administrasi Kebijakan MSDM"],
-    featured: true,
+    // featured: true,
     paths: [
       "M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z",
       "M14 3v5h5",
@@ -56,7 +56,7 @@ const ITEMS = [
   },
   {
     title: "Kepatuhan regulasi",
-    tags: ["UU Ketenagakerjaan", "UU Cipta Kerja", "PP turunannya", "BPJS"],
+    tags: ["UU Ketenagakerjaan", "UU Cipta Kerja", "PP turunannya"],
     paths: ["M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z", "M9 12l2 2 4-4"],
   },
   {
