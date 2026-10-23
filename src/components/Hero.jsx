@@ -2,8 +2,7 @@ import { useState } from "react";
 
 const PROFILE = {
   name: "M. Azmi Tarigan, S.H.",
-  roleLeft: "Sarjana Hukum",
-  roleRight: "HR Legal & Industrial Relations",
+  role: "HR Legal & Industrial Relations",
   summary:
     "Pengalaman magang di Pengadilan Negeri Medan, dengan pemahaman hukum ketenagakerjaan, kontrak kerja, dan penyelesaian perselisihan hubungan industrial.",
   photo: "/porto-img.png", // taruh file di folder public/
@@ -32,9 +31,7 @@ export default function Hero() {
           <div className="mt-7 h-px w-20 bg-gold-500" aria-hidden="true" />
 
           <p className="mt-7 flex flex-wrap items-center gap-x-4 gap-y-1 text-lg font-medium text-gold-400 sm:text-xl">
-            <span>{PROFILE.roleLeft}</span>
-            <span className="h-5 w-px bg-gold-500/60" aria-hidden="true" />
-            <span>{PROFILE.roleRight}</span>
+                 <span>{PROFILE.role}</span>
           </p>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-paper/70 sm:text-lg">
