@@ -1,23 +1,16 @@
-// Seluruh isi diambil dari pengalaman, organisasi, dan pelatihan yang sudah tertulis.
-// Hapus atau tambah item sesuai kemampuan yang benar-benar kamu kuasai.
 const LEGAL_SKILLS = [
   "Legal drafting",
   "Legal opinion",
   "Legal reasoning",
-  "Penelusuran hukum",
-  "Analisis isu hukum",
-  "Resume perkara",
-  "Hukum acara",
+  "Legal due diligence",
+  "Hukum Pengadilan Hubungan Industrial",
 ];
 
 const SUPPORT_SKILLS = [
-  "Ketelitian dokumen",
-  "Menjaga kerahasiaan",
+  "Rekrutmen",
+  "Wawancara",
   "Administrasi berkas",
-  "Wawancara dan klarifikasi data",
-  "Kepemimpinan",
-  "Penulisan",
-  "Advokasi",
+  "Kebijakan MSDM",
 ];
 
 const TOOLS = [

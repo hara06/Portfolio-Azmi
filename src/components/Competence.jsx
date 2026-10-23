@@ -18,7 +18,7 @@ const Icon = ({ paths }) => (
 const ITEMS = [
   {
     title: "Kontrak kerja dan perjanjian terkait",
-    tags: ["PKWT", "PKWTT", "NDA", "Non-compete"],
+    tags: ["PKWT", "PKWTT", "NDA", "Administrasi Pengupahan", "Administrasi Jaminan Sosial", "Administrasi Kebijakan MSDM"],
     featured: true,
     paths: [
       "M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z",
@@ -29,7 +29,7 @@ const ITEMS = [
   },
   {
     title: "Peraturan Perusahaan dan Perjanjian Kerja Bersama",
-    tags: ["PKB"],
+    tags: ["PKB", "Administrasi OSS-RBA"],
     paths: [
       "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
     ],
@@ -56,7 +56,7 @@ const ITEMS = [
   },
   {
     title: "Kepatuhan regulasi",
-    tags: ["UU Ketenagakerjaan", "UU Cipta Kerja", "PP turunannya", "BPJS", "K3"],
+    tags: ["UU Ketenagakerjaan", "UU Cipta Kerja", "PP turunannya", "BPJS"],
     paths: ["M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z", "M9 12l2 2 4-4"],
   },
   {
