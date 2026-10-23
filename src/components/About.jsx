@@ -1,10 +1,3 @@
-const TOPICS = [
-  "Hukum ketenagakerjaan",
-  "Hubungan industrial",
-  "Kepatuhan regulasi",
-  "Kerahasiaan informasi",
-];
-
 const IconDocument = () => (
   <svg
     viewBox="0 0 24 24"
@@ -64,17 +57,6 @@ export default function About() {
             Tentang Saya
           </h2>
           <div className="mt-6 h-px w-20 bg-gold-600" aria-hidden="true" />
-
-          <ul className="mt-8 flex flex-wrap gap-2">
-            {TOPICS.map((t) => (
-              <li
-                key={t}
-                className="rounded-full border border-charcoal-900/15 bg-paper/60 px-3.5 py-1.5 text-sm text-charcoal-800"
-              >
-                {t}
-              </li>
-            ))}
-          </ul>
         </div>
 
         {/* Kanan: kalimat pembuka besar, lalu kartu */}
