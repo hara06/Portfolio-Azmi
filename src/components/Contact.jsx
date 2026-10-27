@@ -63,7 +63,7 @@ export default function Contact() {
           {/* Ajakan */}
           <div className="lg:col-span-5">
             <p className="font-display text-2xl font-medium leading-snug sm:text-3xl">
-              Terbuka untuk peluang di bidang HR Legal dan Industrial Relations.
+              Terbuka untuk peluang di bidang HR Legal.
             </p>
             <p className="mt-4 max-w-md leading-relaxed text-charcoal-700">
               Silakan hubungi saya untuk diskusi atau kebutuhan dokumen

@@ -61,9 +61,13 @@ export default function About() {
 
         {/* Kanan: kalimat pembuka besar, lalu kartu */}
         <div className="lg:col-span-8">
-          <p className="font-display text-3xl font-medium leading-snug tracking-tight sm:text-4xl lg:text-[2.6rem] lg:leading-[1.2]">
-            Saya lulusan Sarjana Hukum dengan minat pada hukum ketenagakerjaan
-            dan hubungan industrial.
+          <p className="font-display text-lg font-medium leading-relaxed tracking-tight sm:text-xl lg:text-2xl">
+            Sarjana Hukum dari Universitas Malikussaleh dengan IPK 3,78/4,00, memiliki sertifikasi BNSP
+            Chief Human Resources Officer (CHRO) dan sertifikasi Ujian Profesi Advokat (PERADI).
+            Memiliki pengalaman di sektor multifinance serta administrasi dan pengelolaan dokumen
+            melalui kegiatan magang di Pos Bantuan Hukum. Memahami dasar administrasi sumber daya
+            manusia, administrasi pengupahan, jaminan sosial, dan penerapan kebijakan MSDM melalui
+            pelatihan kompetensi HR Staff.
           </p>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2">
